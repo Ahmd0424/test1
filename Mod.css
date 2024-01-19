@@ -1,0 +1,418 @@
+/* Home Page */
+
+.logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-top: -77px;
+} /*Editing the Logo*/
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fcf1d8;
+}
+
+header {
+    background-color: #abcea9;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+
+nav ul {
+    background-color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    margin: auto;
+    position: sticky;
+}
+
+nav{
+    z-index: 100;
+    top: 0;
+    justify-content: center;
+    display: flex;
+}
+
+/* Styling the list items to display horizontally */
+nav ul li {
+    border-right: 1px solid #bbb;
+    padding-right: 26px;
+    display: inline;
+    margin-right: 20px; /* Adjust as needed for spacing between items */
+    margin-left: 20px;
+    
+}
+
+/* Styling the anchor links */
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+li a:hover:not(.active) {
+    background-color: #78b075;
+}
+
+pre {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+/* Home */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(Leo.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.home .content h3{
+    color: white;
+    font-size: 3rem; 
+    line-height: 1.4;
+    font-weight: 500 bold;  
+    position: sticky;
+}
+
+.home .wave{
+    position: absolute;
+    bottom: -433px; left: 0;
+    width: 100%;
+    height: 12rem;
+}
+
+h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 2;
+}
+
+footer {
+    background-color: #abcea9;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #78b075;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* End HomePage */
+
+
+/* About */
+
+.abouth {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.image-description-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.image-cell {
+    border: 1px solid #ddd;
+}
+
+.image-cell img {
+    width: 100%;
+    height: auto;
+}
+
+.description-cell {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.image-cell, .description-cell {
+    border: 2px solid #000000;
+}
+
+.dept {
+    width: 100%;
+}
+
+.gallery-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 30%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+
+h3, h4, h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+.conservation-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conservation-link:hover {
+    text-decoration: underline;
+}
+
+.content-box {
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 15px;
+}    
+
+/*Yala*/
+
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    overflow: hidden;
+}
+
+.gallery a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery:hover img {
+    transform: scale(1.1);
+}
+
+.gallery:hover .overlay {
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* sliding-animation */
+.sliding-animation {
+    animation: slideIn 2s ease-out;
+}
+
+section.explore-link {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.explore-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.explore-box p {
+    margin-bottom: 15px;
+}
+
+.explore-box a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore-box a:hover {
+    background-color: #45a049;
+}
+
+.wilp {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('Lep2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    transition: background 0.8s ease-in-out;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Fading effect */
+    pointer-events: none; /* Allow interaction with elements beneath */
+    z-index: -1; /* Behind the content */
+}
+
+/* Animals page, links to yala and wilpattu */
+
+.explore-boxx {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.explore-boxx p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.explore-boxx a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore-boxx a:hover {
+    background-color: #45a049;
+}
+
+  @media only screen and (max-width: 500px) {
+    .explore-box {
+        width: 90%;
+    }
+
+    .gallery {
+        height: 50vh;
+    }
+}
+
